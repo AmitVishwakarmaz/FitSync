@@ -62,6 +62,10 @@ while cap.isOpened():
     # Exit on 'q' key press
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
+<<<<<<< HEAD
 
+=======
+print("hello world")
+>>>>>>> ee4f58445654c3737139318750cc2f8a997ee2c7
 cap.release()
 cv2.destroyAllWindows()
